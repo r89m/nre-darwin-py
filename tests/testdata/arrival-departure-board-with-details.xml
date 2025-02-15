@@ -1,0 +1,1954 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <GetArrDepBoardWithDetailsResponse xmlns="http://thalesgroup.com/RTTI/2021-11-01/ldb/">
+            <GetStationBoardResult xmlns:lt="http://thalesgroup.com/RTTI/2012-01-13/ldb/types" xmlns:lt8="http://thalesgroup.com/RTTI/2021-11-01/ldb/types"
+                                   xmlns:lt4="http://thalesgroup.com/RTTI/2015-11-27/ldb/types" xmlns:lt5="http://thalesgroup.com/RTTI/2016-02-16/ldb/types"
+            >
+                <lt4:generatedAt>2025-02-14T16:52:01.5516806+00:00</lt4:generatedAt>
+                <lt4:locationName>East Croydon</lt4:locationName>
+                <lt4:crs>ECR</lt4:crs>
+                <lt4:nrccMessages>
+                    <lt:message>
+                        Major disruption to Thameslink services. Trains may be cancelled, revised or delayed by up to 20 minutes. Latest information can be found in &lt;a
+                        href="https://www.nationalrail.co.uk/service-disruptions/london-blackfriars-20250213/"&gt;Status and Disruptions.&lt;/a&gt;
+                    </lt:message>
+                    <lt:message>
+                        Trains running through Purley Oaks may be cancelled. Latest information can be found in &lt;a
+                        href="https://www.nationalrail.co.uk/service-disruptions/purley-oaks-20250214/"&gt;Status and Disruptions&lt;/a&gt;.
+                    </lt:message>
+                </lt4:nrccMessages>
+                <lt4:platformAvailable>true</lt4:platformAvailable>
+                <lt8:trainServices>
+                    <lt8:service>
+                        <lt4:sta>16:41</lt4:sta>
+                        <lt4:eta>16:50</lt4:eta>
+                        <lt4:std>16:42</lt4:std>
+                        <lt4:etd>16:52</lt4:etd>
+                        <lt4:platform>1</lt4:platform>
+                        <lt4:operator>Southern</lt4:operator>
+                        <lt4:operatorCode>SN</lt4:operatorCode>
+                        <lt4:serviceType>train</lt4:serviceType>
+                        <lt4:length>8</lt4:length>
+                        <lt4:delayReason>This train has been delayed by a fault with the signalling system</lt4:delayReason>
+                        <lt4:serviceID>4125791ECROYDN_</lt4:serviceID>
+                        <lt5:origin>
+                            <lt4:location>
+                                <lt4:locationName>Littlehampton</lt4:locationName>
+                                <lt4:crs>LIT</lt4:crs>
+                            </lt4:location>
+                        </lt5:origin>
+                        <lt5:destination>
+                            <lt4:location>
+                                <lt4:locationName>London Victoria</lt4:locationName>
+                                <lt4:crs>VIC</lt4:crs>
+                            </lt4:location>
+                        </lt5:destination>
+                        <lt8:previousCallingPoints>
+                            <lt8:callingPointList>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Littlehampton</lt8:locationName>
+                                    <lt8:crs>LIT</lt8:crs>
+                                    <lt8:st>15:12</lt8:st>
+                                    <lt8:at>On time</lt8:at>
+                                    <lt8:length>8</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Angmering</lt8:locationName>
+                                    <lt8:crs>ANG</lt8:crs>
+                                    <lt8:st>15:21</lt8:st>
+                                    <lt8:at>15:23</lt8:at>
+                                    <lt8:length>8</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Goring-by-Sea</lt8:locationName>
+                                    <lt8:crs>GBS</lt8:crs>
+                                    <lt8:st>15:25</lt8:st>
+                                    <lt8:at>15:28</lt8:at>
+                                    <lt8:length>8</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Durrington-on-Sea</lt8:locationName>
+                                    <lt8:crs>DUR</lt8:crs>
+                                    <lt8:st>15:27</lt8:st>
+                                    <lt8:at>15:31</lt8:at>
+                                    <lt8:length>8</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>West Worthing</lt8:locationName>
+                                    <lt8:crs>WWO</lt8:crs>
+                                    <lt8:st>15:30</lt8:st>
+                                    <lt8:at>15:34</lt8:at>
+                                    <lt8:length>8</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Worthing</lt8:locationName>
+                                    <lt8:crs>WRH</lt8:crs>
+                                    <lt8:st>15:33</lt8:st>
+                                    <lt8:at>15:36</lt8:at>
+                                    <lt8:length>8</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>East Worthing</lt8:locationName>
+                                    <lt8:crs>EWR</lt8:crs>
+                                    <lt8:st>15:36</lt8:st>
+                                    <lt8:at>15:40</lt8:at>
+                                    <lt8:length>8</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Lancing</lt8:locationName>
+                                    <lt8:crs>LAC</lt8:crs>
+                                    <lt8:st>15:39</lt8:st>
+                                    <lt8:at>15:42</lt8:at>
+                                    <lt8:length>8</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Shoreham-by-Sea</lt8:locationName>
+                                    <lt8:crs>SSE</lt8:crs>
+                                    <lt8:st>15:43</lt8:st>
+                                    <lt8:at>15:47</lt8:at>
+                                    <lt8:length>8</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Portslade</lt8:locationName>
+                                    <lt8:crs>PLD</lt8:crs>
+                                    <lt8:st>15:47</lt8:st>
+                                    <lt8:at>15:52</lt8:at>
+                                    <lt8:length>8</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Hove</lt8:locationName>
+                                    <lt8:crs>HOV</lt8:crs>
+                                    <lt8:st>15:51</lt8:st>
+                                    <lt8:at>15:56</lt8:at>
+                                    <lt8:length>8</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Preston Park</lt8:locationName>
+                                    <lt8:crs>PRP</lt8:crs>
+                                    <lt8:st>15:56</lt8:st>
+                                    <lt8:at>16:00</lt8:at>
+                                    <lt8:length>8</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Hassocks</lt8:locationName>
+                                    <lt8:crs>HSK</lt8:crs>
+                                    <lt8:st>16:03</lt8:st>
+                                    <lt8:at>16:07</lt8:at>
+                                    <lt8:length>8</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Burgess Hill</lt8:locationName>
+                                    <lt8:crs>BUG</lt8:crs>
+                                    <lt8:st>16:07</lt8:st>
+                                    <lt8:at>16:10</lt8:at>
+                                    <lt8:length>8</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Haywards Heath</lt8:locationName>
+                                    <lt8:crs>HHE</lt8:crs>
+                                    <lt8:st>16:12</lt8:st>
+                                    <lt8:at>16:19</lt8:at>
+                                    <lt8:length>8</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Gatwick Airport</lt8:locationName>
+                                    <lt8:crs>GTW</lt8:crs>
+                                    <lt8:st>16:26</lt8:st>
+                                    <lt8:at>16:33</lt8:at>
+                                    <lt8:length>8</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                            </lt8:callingPointList>
+                        </lt8:previousCallingPoints>
+                        <lt8:subsequentCallingPoints>
+                            <lt8:callingPointList>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Clapham Junction</lt8:locationName>
+                                    <lt8:crs>CLJ</lt8:crs>
+                                    <lt8:st>16:51</lt8:st>
+                                    <lt8:et>17:00</lt8:et>
+                                    <lt8:length>8</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>London Victoria</lt8:locationName>
+                                    <lt8:crs>VIC</lt8:crs>
+                                    <lt8:st>16:58</lt8:st>
+                                    <lt8:et>17:07</lt8:et>
+                                    <lt8:length>8</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                            </lt8:callingPointList>
+                        </lt8:subsequentCallingPoints>
+                    </lt8:service>
+                    <lt8:service>
+                        <lt4:sta>16:45</lt4:sta>
+                        <lt4:eta>16:52</lt4:eta>
+                        <lt4:std>16:45</lt4:std>
+                        <lt4:etd>16:52</lt4:etd>
+                        <lt4:platform>2</lt4:platform>
+                        <lt4:operator>Thameslink</lt4:operator>
+                        <lt4:operatorCode>TL</lt4:operatorCode>
+                        <lt4:serviceType>train</lt4:serviceType>
+                        <lt4:length>12</lt4:length>
+                        <lt4:delayReason>This train has been delayed by a person being hit by a train earlier today</lt4:delayReason>
+                        <lt4:serviceID>4121937ECROYDN_</lt4:serviceID>
+                        <lt5:origin>
+                            <lt4:location>
+                                <lt4:locationName>Three Bridges</lt4:locationName>
+                                <lt4:crs>TBD</lt4:crs>
+                            </lt4:location>
+                        </lt5:origin>
+                        <lt5:destination>
+                            <lt4:location>
+                                <lt4:locationName>Peterborough</lt4:locationName>
+                                <lt4:crs>PBO</lt4:crs>
+                            </lt4:location>
+                        </lt5:destination>
+                        <lt8:previousCallingPoints>
+                            <lt8:callingPointList>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Horsham</lt8:locationName>
+                                    <lt8:crs>HRH</lt8:crs>
+                                    <lt8:st>15:55</lt8:st>
+                                    <lt8:at>Cancelled</lt8:at>
+                                    <lt8:isCancelled>true</lt8:isCancelled>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:cancelReason>This train has been cancelled because of a person being hit by a train earlier today</lt8:cancelReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Littlehaven</lt8:locationName>
+                                    <lt8:crs>LVN</lt8:crs>
+                                    <lt8:st>15:59</lt8:st>
+                                    <lt8:at>Cancelled</lt8:at>
+                                    <lt8:isCancelled>true</lt8:isCancelled>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:cancelReason>This train has been cancelled because of a person being hit by a train earlier today</lt8:cancelReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Ifield</lt8:locationName>
+                                    <lt8:crs>IFI</lt8:crs>
+                                    <lt8:st>16:05</lt8:st>
+                                    <lt8:at>Cancelled</lt8:at>
+                                    <lt8:isCancelled>true</lt8:isCancelled>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:cancelReason>This train has been cancelled because of a person being hit by a train earlier today</lt8:cancelReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Crawley</lt8:locationName>
+                                    <lt8:crs>CRW</lt8:crs>
+                                    <lt8:st>16:08</lt8:st>
+                                    <lt8:at>Cancelled</lt8:at>
+                                    <lt8:isCancelled>true</lt8:isCancelled>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:cancelReason>This train has been cancelled because of a person being hit by a train earlier today</lt8:cancelReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Three Bridges</lt8:locationName>
+                                    <lt8:crs>TBD</lt8:crs>
+                                    <lt8:st>16:13</lt8:st>
+                                    <lt8:at>On time</lt8:at>
+                                    <lt8:length>12</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Gatwick Airport</lt8:locationName>
+                                    <lt8:crs>GTW</lt8:crs>
+                                    <lt8:st>16:19</lt8:st>
+                                    <lt8:at>On time</lt8:at>
+                                    <lt8:length>12</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Horley</lt8:locationName>
+                                    <lt8:crs>HOR</lt8:crs>
+                                    <lt8:st>16:21</lt8:st>
+                                    <lt8:at>On time</lt8:at>
+                                    <lt8:length>12</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Salfords</lt8:locationName>
+                                    <lt8:crs>SAF</lt8:crs>
+                                    <lt8:st>16:24</lt8:st>
+                                    <lt8:at>16:27</lt8:at>
+                                    <lt8:delayReason>This train has been delayed by a person being hit by a train earlier today</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Earlswood (Surrey)</lt8:locationName>
+                                    <lt8:crs>ELD</lt8:crs>
+                                    <lt8:st>16:25</lt8:st>
+                                    <lt8:at>16:30</lt8:at>
+                                    <lt8:delayReason>This train has been delayed by a person being hit by a train earlier today</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Redhill</lt8:locationName>
+                                    <lt8:crs>RDH</lt8:crs>
+                                    <lt8:st>16:29</lt8:st>
+                                    <lt8:at>16:34</lt8:at>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a person being hit by a train earlier today</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Merstham</lt8:locationName>
+                                    <lt8:crs>MHM</lt8:crs>
+                                    <lt8:st>16:33</lt8:st>
+                                    <lt8:at>16:39</lt8:at>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a person being hit by a train earlier today</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Coulsdon South</lt8:locationName>
+                                    <lt8:crs>CDS</lt8:crs>
+                                    <lt8:st>16:39</lt8:st>
+                                    <lt8:at>16:43</lt8:at>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a person being hit by a train earlier today</lt8:delayReason>
+                                </lt8:callingPoint>
+                            </lt8:callingPointList>
+                        </lt8:previousCallingPoints>
+                        <lt8:subsequentCallingPoints>
+                            <lt8:callingPointList>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>London Bridge</lt8:locationName>
+                                    <lt8:crs>LBG</lt8:crs>
+                                    <lt8:st>17:00</lt8:st>
+                                    <lt8:et>17:05</lt8:et>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a person being hit by a train earlier today</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>London Blackfriars</lt8:locationName>
+                                    <lt8:crs>BFR</lt8:crs>
+                                    <lt8:st>17:06</lt8:st>
+                                    <lt8:et>17:11</lt8:et>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a person being hit by a train earlier today</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>City Thameslink</lt8:locationName>
+                                    <lt8:crs>CTK</lt8:crs>
+                                    <lt8:st>17:08</lt8:st>
+                                    <lt8:et>17:13</lt8:et>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a person being hit by a train earlier today</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Farringdon</lt8:locationName>
+                                    <lt8:crs>ZFD</lt8:crs>
+                                    <lt8:st>17:11</lt8:st>
+                                    <lt8:et>17:16</lt8:et>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a person being hit by a train earlier today</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>London St Pancras (Intl)</lt8:locationName>
+                                    <lt8:crs>STP</lt8:crs>
+                                    <lt8:st>17:15</lt8:st>
+                                    <lt8:et>17:20</lt8:et>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a person being hit by a train earlier today</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Finsbury Park</lt8:locationName>
+                                    <lt8:crs>FPK</lt8:crs>
+                                    <lt8:st>17:22</lt8:st>
+                                    <lt8:et>17:26</lt8:et>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a person being hit by a train earlier today</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Stevenage</lt8:locationName>
+                                    <lt8:crs>SVG</lt8:crs>
+                                    <lt8:st>17:43</lt8:st>
+                                    <lt8:et>17:47</lt8:et>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a person being hit by a train earlier today</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Hitchin</lt8:locationName>
+                                    <lt8:crs>HIT</lt8:crs>
+                                    <lt8:st>17:50</lt8:st>
+                                    <lt8:et>17:52</lt8:et>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a person being hit by a train earlier today</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Arlesey</lt8:locationName>
+                                    <lt8:crs>ARL</lt8:crs>
+                                    <lt8:st>17:56</lt8:st>
+                                    <lt8:et>17:58</lt8:et>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a person being hit by a train earlier today</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Biggleswade</lt8:locationName>
+                                    <lt8:crs>BIW</lt8:crs>
+                                    <lt8:st>18:01</lt8:st>
+                                    <lt8:et>18:03</lt8:et>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a person being hit by a train earlier today</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Sandy</lt8:locationName>
+                                    <lt8:crs>SDY</lt8:crs>
+                                    <lt8:st>18:05</lt8:st>
+                                    <lt8:et>18:07</lt8:et>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a person being hit by a train earlier today</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>St Neots</lt8:locationName>
+                                    <lt8:crs>SNO</lt8:crs>
+                                    <lt8:st>18:12</lt8:st>
+                                    <lt8:et>18:14</lt8:et>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a person being hit by a train earlier today</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Huntingdon</lt8:locationName>
+                                    <lt8:crs>HUN</lt8:crs>
+                                    <lt8:st>18:20</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>12</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Peterborough</lt8:locationName>
+                                    <lt8:crs>PBO</lt8:crs>
+                                    <lt8:st>18:42</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>12</lt8:length>
+                                </lt8:callingPoint>
+                            </lt8:callingPointList>
+                        </lt8:subsequentCallingPoints>
+                    </lt8:service>
+                    <lt8:service>
+                        <lt4:sta>16:48</lt4:sta>
+                        <lt4:eta>16:56</lt4:eta>
+                        <lt4:std>16:49</lt4:std>
+                        <lt4:etd>16:57</lt4:etd>
+                        <lt4:platform>3</lt4:platform>
+                        <lt4:operator>Thameslink</lt4:operator>
+                        <lt4:operatorCode>TL</lt4:operatorCode>
+                        <lt4:serviceType>train</lt4:serviceType>
+                        <lt4:length>12</lt4:length>
+                        <lt4:delayReason>This train has been delayed by a fault with the signalling system</lt4:delayReason>
+                        <lt4:serviceID>4124105ECROYDN_</lt4:serviceID>
+                        <lt5:origin>
+                            <lt4:location>
+                                <lt4:locationName>Bedford</lt4:locationName>
+                                <lt4:crs>BDM</lt4:crs>
+                            </lt4:location>
+                        </lt5:origin>
+                        <lt5:destination>
+                            <lt4:location>
+                                <lt4:locationName>Brighton</lt4:locationName>
+                                <lt4:crs>BTN</lt4:crs>
+                            </lt4:location>
+                        </lt5:destination>
+                        <lt8:previousCallingPoints>
+                            <lt8:callingPointList>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Bedford</lt8:locationName>
+                                    <lt8:crs>BDM</lt8:crs>
+                                    <lt8:st>15:18</lt8:st>
+                                    <lt8:at>On time</lt8:at>
+                                    <lt8:length>12</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Flitwick</lt8:locationName>
+                                    <lt8:crs>FLT</lt8:crs>
+                                    <lt8:st>15:29</lt8:st>
+                                    <lt8:at>On time</lt8:at>
+                                    <lt8:length>12</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Harlington</lt8:locationName>
+                                    <lt8:crs>HLN</lt8:crs>
+                                    <lt8:st>15:33</lt8:st>
+                                    <lt8:at>On time</lt8:at>
+                                    <lt8:length>12</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Leagrave</lt8:locationName>
+                                    <lt8:crs>LEA</lt8:crs>
+                                    <lt8:st>15:38</lt8:st>
+                                    <lt8:at>On time</lt8:at>
+                                    <lt8:length>12</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Luton</lt8:locationName>
+                                    <lt8:crs>LUT</lt8:crs>
+                                    <lt8:st>15:43</lt8:st>
+                                    <lt8:at>On time</lt8:at>
+                                    <lt8:length>12</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Luton Airport Parkway</lt8:locationName>
+                                    <lt8:crs>LTN</lt8:crs>
+                                    <lt8:st>15:46</lt8:st>
+                                    <lt8:at>On time</lt8:at>
+                                    <lt8:length>12</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Harpenden</lt8:locationName>
+                                    <lt8:crs>HPD</lt8:crs>
+                                    <lt8:st>15:52</lt8:st>
+                                    <lt8:at>On time</lt8:at>
+                                    <lt8:length>12</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>St Albans</lt8:locationName>
+                                    <lt8:crs>SAC</lt8:crs>
+                                    <lt8:st>15:57</lt8:st>
+                                    <lt8:at>On time</lt8:at>
+                                    <lt8:length>12</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>West Hampstead Thameslink</lt8:locationName>
+                                    <lt8:crs>WHP</lt8:crs>
+                                    <lt8:st>16:09</lt8:st>
+                                    <lt8:at>16:20</lt8:at>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>London St Pancras (Intl)</lt8:locationName>
+                                    <lt8:crs>STP</lt8:crs>
+                                    <lt8:st>16:20</lt8:st>
+                                    <lt8:at>16:29</lt8:at>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Farringdon</lt8:locationName>
+                                    <lt8:crs>ZFD</lt8:crs>
+                                    <lt8:st>16:24</lt8:st>
+                                    <lt8:at>16:34</lt8:at>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>City Thameslink</lt8:locationName>
+                                    <lt8:crs>CTK</lt8:crs>
+                                    <lt8:st>16:26</lt8:st>
+                                    <lt8:at>16:37</lt8:at>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>London Blackfriars</lt8:locationName>
+                                    <lt8:crs>BFR</lt8:crs>
+                                    <lt8:st>16:29</lt8:st>
+                                    <lt8:at>16:38</lt8:at>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>London Bridge</lt8:locationName>
+                                    <lt8:crs>LBG</lt8:crs>
+                                    <lt8:st>16:35</lt8:st>
+                                    <lt8:at>16:44</lt8:at>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                            </lt8:callingPointList>
+                        </lt8:previousCallingPoints>
+                        <lt8:subsequentCallingPoints>
+                            <lt8:callingPointList>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Gatwick Airport</lt8:locationName>
+                                    <lt8:crs>GTW</lt8:crs>
+                                    <lt8:st>17:04</lt8:st>
+                                    <lt8:et>17:11</lt8:et>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Three Bridges</lt8:locationName>
+                                    <lt8:crs>TBD</lt8:crs>
+                                    <lt8:st>17:09</lt8:st>
+                                    <lt8:et>17:15</lt8:et>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Balcombe</lt8:locationName>
+                                    <lt8:crs>BAB</lt8:crs>
+                                    <lt8:st>17:16</lt8:st>
+                                    <lt8:et>17:22</lt8:et>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Haywards Heath</lt8:locationName>
+                                    <lt8:crs>HHE</lt8:crs>
+                                    <lt8:st>17:21</lt8:st>
+                                    <lt8:et>17:27</lt8:et>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Wivelsfield</lt8:locationName>
+                                    <lt8:crs>WVF</lt8:crs>
+                                    <lt8:st>17:26</lt8:st>
+                                    <lt8:et>17:31</lt8:et>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Burgess Hill</lt8:locationName>
+                                    <lt8:crs>BUG</lt8:crs>
+                                    <lt8:st>17:28</lt8:st>
+                                    <lt8:et>17:33</lt8:et>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Hassocks</lt8:locationName>
+                                    <lt8:crs>HSK</lt8:crs>
+                                    <lt8:st>17:32</lt8:st>
+                                    <lt8:et>17:37</lt8:et>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Preston Park</lt8:locationName>
+                                    <lt8:crs>PRP</lt8:crs>
+                                    <lt8:st>17:39</lt8:st>
+                                    <lt8:et>17:44</lt8:et>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Brighton</lt8:locationName>
+                                    <lt8:crs>BTN</lt8:crs>
+                                    <lt8:st>17:44</lt8:st>
+                                    <lt8:et>17:49</lt8:et>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                            </lt8:callingPointList>
+                        </lt8:subsequentCallingPoints>
+                    </lt8:service>
+                    <lt8:service>
+                        <lt4:sta>16:51</lt4:sta>
+                        <lt4:eta>16:57</lt4:eta>
+                        <lt4:std>16:51</lt4:std>
+                        <lt4:etd>16:58</lt4:etd>
+                        <lt4:platform>2</lt4:platform>
+                        <lt4:operator>Thameslink</lt4:operator>
+                        <lt4:operatorCode>TL</lt4:operatorCode>
+                        <lt4:serviceType>train</lt4:serviceType>
+                        <lt4:length>12</lt4:length>
+                        <lt4:delayReason>This train has been delayed by a fault with the signalling system</lt4:delayReason>
+                        <lt4:serviceID>4124090ECROYDN_</lt4:serviceID>
+                        <lt5:origin>
+                            <lt4:location>
+                                <lt4:locationName>Brighton</lt4:locationName>
+                                <lt4:crs>BTN</lt4:crs>
+                            </lt4:location>
+                        </lt5:origin>
+                        <lt5:destination>
+                            <lt4:location>
+                                <lt4:locationName>Bedford</lt4:locationName>
+                                <lt4:crs>BDM</lt4:crs>
+                                <lt4:via>via London Bridge</lt4:via>
+                            </lt4:location>
+                        </lt5:destination>
+                        <lt8:previousCallingPoints>
+                            <lt8:callingPointList>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Brighton</lt8:locationName>
+                                    <lt8:crs>BTN</lt8:crs>
+                                    <lt8:st>15:58</lt8:st>
+                                    <lt8:at>16:00</lt8:at>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Preston Park</lt8:locationName>
+                                    <lt8:crs>PRP</lt8:crs>
+                                    <lt8:st>16:02</lt8:st>
+                                    <lt8:at>16:04</lt8:at>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Hassocks</lt8:locationName>
+                                    <lt8:crs>HSK</lt8:crs>
+                                    <lt8:st>16:08</lt8:st>
+                                    <lt8:at>16:10</lt8:at>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Burgess Hill</lt8:locationName>
+                                    <lt8:crs>BUG</lt8:crs>
+                                    <lt8:st>16:12</lt8:st>
+                                    <lt8:at>16:14</lt8:at>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Wivelsfield</lt8:locationName>
+                                    <lt8:crs>WVF</lt8:crs>
+                                    <lt8:st>16:14</lt8:st>
+                                    <lt8:at>16:17</lt8:at>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Haywards Heath</lt8:locationName>
+                                    <lt8:crs>HHE</lt8:crs>
+                                    <lt8:st>16:19</lt8:st>
+                                    <lt8:at>16:22</lt8:at>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Balcombe</lt8:locationName>
+                                    <lt8:crs>BAB</lt8:crs>
+                                    <lt8:st>16:25</lt8:st>
+                                    <lt8:at>16:28</lt8:at>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Three Bridges</lt8:locationName>
+                                    <lt8:crs>TBD</lt8:crs>
+                                    <lt8:st>16:31</lt8:st>
+                                    <lt8:at>16:36</lt8:at>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Gatwick Airport</lt8:locationName>
+                                    <lt8:crs>GTW</lt8:crs>
+                                    <lt8:st>16:36</lt8:st>
+                                    <lt8:at>16:43</lt8:at>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                            </lt8:callingPointList>
+                        </lt8:previousCallingPoints>
+                        <lt8:subsequentCallingPoints>
+                            <lt8:callingPointList>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>London Bridge</lt8:locationName>
+                                    <lt8:crs>LBG</lt8:crs>
+                                    <lt8:st>17:05</lt8:st>
+                                    <lt8:et>17:11</lt8:et>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>London Blackfriars</lt8:locationName>
+                                    <lt8:crs>BFR</lt8:crs>
+                                    <lt8:st>17:11</lt8:st>
+                                    <lt8:et>17:17</lt8:et>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>City Thameslink</lt8:locationName>
+                                    <lt8:crs>CTK</lt8:crs>
+                                    <lt8:st>17:13</lt8:st>
+                                    <lt8:et>17:19</lt8:et>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Farringdon</lt8:locationName>
+                                    <lt8:crs>ZFD</lt8:crs>
+                                    <lt8:st>17:16</lt8:st>
+                                    <lt8:et>17:21</lt8:et>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>London St Pancras (Intl)</lt8:locationName>
+                                    <lt8:crs>STP</lt8:crs>
+                                    <lt8:st>17:20</lt8:st>
+                                    <lt8:et>17:25</lt8:et>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>St Albans</lt8:locationName>
+                                    <lt8:crs>SAC</lt8:crs>
+                                    <lt8:st>17:40</lt8:st>
+                                    <lt8:et>17:44</lt8:et>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Harpenden</lt8:locationName>
+                                    <lt8:crs>HPD</lt8:crs>
+                                    <lt8:st>17:47</lt8:st>
+                                    <lt8:et>17:51</lt8:et>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Luton Airport Parkway</lt8:locationName>
+                                    <lt8:crs>LTN</lt8:crs>
+                                    <lt8:st>17:53</lt8:st>
+                                    <lt8:et>17:56</lt8:et>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Luton</lt8:locationName>
+                                    <lt8:crs>LUT</lt8:crs>
+                                    <lt8:st>17:57</lt8:st>
+                                    <lt8:et>17:59</lt8:et>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Leagrave</lt8:locationName>
+                                    <lt8:crs>LEA</lt8:crs>
+                                    <lt8:st>18:01</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>12</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Harlington</lt8:locationName>
+                                    <lt8:crs>HLN</lt8:crs>
+                                    <lt8:st>18:06</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>12</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Flitwick</lt8:locationName>
+                                    <lt8:crs>FLT</lt8:crs>
+                                    <lt8:st>18:10</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>12</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Bedford</lt8:locationName>
+                                    <lt8:crs>BDM</lt8:crs>
+                                    <lt8:st>18:22</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>12</lt8:length>
+                                </lt8:callingPoint>
+                            </lt8:callingPointList>
+                        </lt8:subsequentCallingPoints>
+                    </lt8:service>
+                    <lt8:service>
+                        <lt4:std>16:52</lt4:std>
+                        <lt4:etd>On time</lt4:etd>
+                        <lt4:platform>5</lt4:platform>
+                        <lt4:operator>Southern</lt4:operator>
+                        <lt4:operatorCode>SN</lt4:operatorCode>
+                        <lt4:serviceType>train</lt4:serviceType>
+                        <lt4:length>6</lt4:length>
+                        <lt4:serviceID>4130119ECROYDN_</lt4:serviceID>
+                        <lt5:origin>
+                            <lt4:location>
+                                <lt4:locationName>East Croydon</lt4:locationName>
+                                <lt4:crs>ECR</lt4:crs>
+                            </lt4:location>
+                        </lt5:origin>
+                        <lt5:destination>
+                            <lt4:location>
+                                <lt4:locationName>London Bridge</lt4:locationName>
+                                <lt4:crs>LBG</lt4:crs>
+                                <lt4:via>via Norbury</lt4:via>
+                            </lt4:location>
+                        </lt5:destination>
+                        <lt8:subsequentCallingPoints>
+                            <lt8:callingPointList>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Selhurst</lt8:locationName>
+                                    <lt8:crs>SRS</lt8:crs>
+                                    <lt8:st>16:57</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>6</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Thornton Heath</lt8:locationName>
+                                    <lt8:crs>TTH</lt8:crs>
+                                    <lt8:st>17:00</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>6</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Norbury</lt8:locationName>
+                                    <lt8:crs>NRB</lt8:crs>
+                                    <lt8:st>17:03</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>6</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Streatham Common</lt8:locationName>
+                                    <lt8:crs>SRC</lt8:crs>
+                                    <lt8:st>17:06</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>6</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Streatham</lt8:locationName>
+                                    <lt8:crs>STE</lt8:crs>
+                                    <lt8:st>17:12</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>6</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Tulse Hill</lt8:locationName>
+                                    <lt8:crs>TUH</lt8:crs>
+                                    <lt8:st>17:16</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>6</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>North Dulwich</lt8:locationName>
+                                    <lt8:crs>NDL</lt8:crs>
+                                    <lt8:st>17:20</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>6</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>East Dulwich</lt8:locationName>
+                                    <lt8:crs>EDW</lt8:crs>
+                                    <lt8:st>17:23</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>6</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Peckham Rye</lt8:locationName>
+                                    <lt8:crs>PMR</lt8:crs>
+                                    <lt8:st>17:26</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>6</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Queens Road Peckham</lt8:locationName>
+                                    <lt8:crs>QRP</lt8:crs>
+                                    <lt8:st>17:28</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>6</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>South Bermondsey</lt8:locationName>
+                                    <lt8:crs>SBM</lt8:crs>
+                                    <lt8:st>17:31</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>6</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>London Bridge</lt8:locationName>
+                                    <lt8:crs>LBG</lt8:crs>
+                                    <lt8:st>17:36</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>6</lt8:length>
+                                </lt8:callingPoint>
+                            </lt8:callingPointList>
+                        </lt8:subsequentCallingPoints>
+                    </lt8:service>
+                    <lt8:service>
+                        <lt4:sta>16:52</lt4:sta>
+                        <lt4:eta>On time</lt4:eta>
+                        <lt4:std>16:53</lt4:std>
+                        <lt4:etd>On time</lt4:etd>
+                        <lt4:platform>3</lt4:platform>
+                        <lt4:operator>Southern</lt4:operator>
+                        <lt4:operatorCode>SN</lt4:operatorCode>
+                        <lt4:serviceType>train</lt4:serviceType>
+                        <lt4:length>8</lt4:length>
+                        <lt4:serviceID>4123688ECROYDN_</lt4:serviceID>
+                        <lt5:origin>
+                            <lt4:location>
+                                <lt4:locationName>London Victoria</lt4:locationName>
+                                <lt4:crs>VIC</lt4:crs>
+                            </lt4:location>
+                        </lt5:origin>
+                        <lt5:destination>
+                            <lt4:location>
+                                <lt4:locationName>Portsmouth Harbour</lt4:locationName>
+                                <lt4:crs>PMH</lt4:crs>
+                                <lt4:via>via Horsham</lt4:via>
+                            </lt4:location>
+                            <lt4:location>
+                                <lt4:locationName>Bognor Regis</lt4:locationName>
+                                <lt4:crs>BOG</lt4:crs>
+                                <lt4:via>via Horsham</lt4:via>
+                            </lt4:location>
+                        </lt5:destination>
+                        <lt8:previousCallingPoints>
+                            <lt8:callingPointList>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>London Victoria</lt8:locationName>
+                                    <lt8:crs>VIC</lt8:crs>
+                                    <lt8:st>16:35</lt8:st>
+                                    <lt8:at>On time</lt8:at>
+                                    <lt8:length>8</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Clapham Junction</lt8:locationName>
+                                    <lt8:crs>CLJ</lt8:crs>
+                                    <lt8:st>16:42</lt8:st>
+                                    <lt8:at>On time</lt8:at>
+                                    <lt8:length>8</lt8:length>
+                                </lt8:callingPoint>
+                            </lt8:callingPointList>
+                        </lt8:previousCallingPoints>
+                        <lt8:subsequentCallingPoints>
+                            <lt8:callingPointList>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Gatwick Airport</lt8:locationName>
+                                    <lt8:crs>GTW</lt8:crs>
+                                    <lt8:st>17:08</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>8</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Three Bridges</lt8:locationName>
+                                    <lt8:crs>TBD</lt8:crs>
+                                    <lt8:st>17:14</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>8</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Crawley</lt8:locationName>
+                                    <lt8:crs>CRW</lt8:crs>
+                                    <lt8:st>17:18</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>8</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Horsham</lt8:locationName>
+                                    <lt8:crs>HRH</lt8:crs>
+                                    <lt8:st>17:27</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>4</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Barnham</lt8:locationName>
+                                    <lt8:crs>BAA</lt8:crs>
+                                    <lt8:st>17:59</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>4</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Chichester</lt8:locationName>
+                                    <lt8:crs>CCH</lt8:crs>
+                                    <lt8:st>18:08</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>4</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Southbourne</lt8:locationName>
+                                    <lt8:crs>SOB</lt8:crs>
+                                    <lt8:st>18:16</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>4</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Emsworth</lt8:locationName>
+                                    <lt8:crs>EMS</lt8:crs>
+                                    <lt8:st>18:19</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>4</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Havant</lt8:locationName>
+                                    <lt8:crs>HAV</lt8:crs>
+                                    <lt8:st>18:24</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>4</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Hilsea</lt8:locationName>
+                                    <lt8:crs>HLS</lt8:crs>
+                                    <lt8:st>18:32</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>4</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Fratton</lt8:locationName>
+                                    <lt8:crs>FTN</lt8:crs>
+                                    <lt8:st>18:36</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>4</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Portsmouth &amp; Southsea</lt8:locationName>
+                                    <lt8:crs>PMS</lt8:crs>
+                                    <lt8:st>18:40</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>4</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Portsmouth Harbour</lt8:locationName>
+                                    <lt8:crs>PMH</lt8:crs>
+                                    <lt8:st>18:44</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>4</lt8:length>
+                                </lt8:callingPoint>
+                            </lt8:callingPointList>
+                            <lt8:callingPointList>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Horsham</lt8:locationName>
+                                    <lt8:crs>HRH</lt8:crs>
+                                    <lt8:st>17:27</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>4</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Christs Hospital</lt8:locationName>
+                                    <lt8:crs>CHH</lt8:crs>
+                                    <lt8:st>17:39</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>4</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Billingshurst</lt8:locationName>
+                                    <lt8:crs>BIG</lt8:crs>
+                                    <lt8:st>17:45</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>4</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Pulborough</lt8:locationName>
+                                    <lt8:crs>PUL</lt8:crs>
+                                    <lt8:st>17:52</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>4</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Amberley</lt8:locationName>
+                                    <lt8:crs>AMY</lt8:crs>
+                                    <lt8:st>17:58</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>4</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Arundel</lt8:locationName>
+                                    <lt8:crs>ARU</lt8:crs>
+                                    <lt8:st>18:02</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>4</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Ford</lt8:locationName>
+                                    <lt8:crs>FOD</lt8:crs>
+                                    <lt8:st>18:08</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>4</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Barnham</lt8:locationName>
+                                    <lt8:crs>BAA</lt8:crs>
+                                    <lt8:st>18:13</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>4</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Bognor Regis</lt8:locationName>
+                                    <lt8:crs>BOG</lt8:crs>
+                                    <lt8:st>18:21</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>4</lt8:length>
+                                </lt8:callingPoint>
+                            </lt8:callingPointList>
+                        </lt8:subsequentCallingPoints>
+                    </lt8:service>
+                    <lt8:service>
+                        <lt4:sta>16:54</lt4:sta>
+                        <lt4:eta>On time</lt4:eta>
+                        <lt4:std>16:55</lt4:std>
+                        <lt4:etd>On time</lt4:etd>
+                        <lt4:platform>4</lt4:platform>
+                        <lt4:operator>Southern</lt4:operator>
+                        <lt4:operatorCode>SN</lt4:operatorCode>
+                        <lt4:serviceType>train</lt4:serviceType>
+                        <lt4:length>10</lt4:length>
+                        <lt4:serviceID>4126693ECROYDN_</lt4:serviceID>
+                        <lt5:origin>
+                            <lt4:location>
+                                <lt4:locationName>Caterham</lt4:locationName>
+                                <lt4:crs>CAT</lt4:crs>
+                            </lt4:location>
+                            <lt4:location>
+                                <lt4:locationName>Tattenham Corner</lt4:locationName>
+                                <lt4:crs>TAT</lt4:crs>
+                            </lt4:location>
+                        </lt5:origin>
+                        <lt5:destination>
+                            <lt4:location>
+                                <lt4:locationName>London Bridge</lt4:locationName>
+                                <lt4:crs>LBG</lt4:crs>
+                                <lt4:via>via Norwood Junction</lt4:via>
+                            </lt4:location>
+                        </lt5:destination>
+                        <lt8:previousCallingPoints>
+                            <lt8:callingPointList>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Caterham</lt8:locationName>
+                                    <lt8:crs>CAT</lt8:crs>
+                                    <lt8:st>16:25</lt8:st>
+                                    <lt8:at>On time</lt8:at>
+                                    <lt8:length>5</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Whyteleafe South</lt8:locationName>
+                                    <lt8:crs>WHS</lt8:crs>
+                                    <lt8:st>16:29</lt8:st>
+                                    <lt8:at>On time</lt8:at>
+                                    <lt8:length>5</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Whyteleafe</lt8:locationName>
+                                    <lt8:crs>WHY</lt8:crs>
+                                    <lt8:st>16:31</lt8:st>
+                                    <lt8:at>16:35</lt8:at>
+                                    <lt8:length>5</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Kenley</lt8:locationName>
+                                    <lt8:crs>KLY</lt8:crs>
+                                    <lt8:st>16:34</lt8:st>
+                                    <lt8:at>16:36</lt8:at>
+                                    <lt8:length>5</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Purley</lt8:locationName>
+                                    <lt8:crs>PUR</lt8:crs>
+                                    <lt8:st>16:45</lt8:st>
+                                    <lt8:at>On time</lt8:at>
+                                    <lt8:length>10</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Purley Oaks</lt8:locationName>
+                                    <lt8:crs>PUO</lt8:crs>
+                                    <lt8:st>16:48</lt8:st>
+                                    <lt8:at>On time</lt8:at>
+                                    <lt8:length>10</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>South Croydon</lt8:locationName>
+                                    <lt8:crs>SCY</lt8:crs>
+                                    <lt8:st>16:51</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>10</lt8:length>
+                                </lt8:callingPoint>
+                            </lt8:callingPointList>
+                            <lt8:callingPointList>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Tattenham Corner</lt8:locationName>
+                                    <lt8:crs>TAT</lt8:crs>
+                                    <lt8:st>16:15</lt8:st>
+                                    <lt8:at>16:18</lt8:at>
+                                    <lt8:length>5</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Tadworth</lt8:locationName>
+                                    <lt8:crs>TAD</lt8:crs>
+                                    <lt8:st>16:19</lt8:st>
+                                    <lt8:at>No report</lt8:at>
+                                    <lt8:length>5</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Kingswood</lt8:locationName>
+                                    <lt8:crs>KND</lt8:crs>
+                                    <lt8:st>16:22</lt8:st>
+                                    <lt8:at>16:26</lt8:at>
+                                    <lt8:length>5</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Chipstead</lt8:locationName>
+                                    <lt8:crs>CHP</lt8:crs>
+                                    <lt8:st>16:28</lt8:st>
+                                    <lt8:at>16:31</lt8:at>
+                                    <lt8:length>5</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Woodmansterne</lt8:locationName>
+                                    <lt8:crs>WME</lt8:crs>
+                                    <lt8:st>16:31</lt8:st>
+                                    <lt8:at>16:35</lt8:at>
+                                    <lt8:length>5</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Coulsdon Town</lt8:locationName>
+                                    <lt8:crs>CDN</lt8:crs>
+                                    <lt8:st>16:35</lt8:st>
+                                    <lt8:at>16:37</lt8:at>
+                                    <lt8:length>5</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Reedham (Surrey)</lt8:locationName>
+                                    <lt8:crs>RHM</lt8:crs>
+                                    <lt8:st>16:38</lt8:st>
+                                    <lt8:at>On time</lt8:at>
+                                    <lt8:length>5</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Purley</lt8:locationName>
+                                    <lt8:crs>PUR</lt8:crs>
+                                    <lt8:st>16:45</lt8:st>
+                                    <lt8:at>On time</lt8:at>
+                                    <lt8:length>5</lt8:length>
+                                </lt8:callingPoint>
+                            </lt8:callingPointList>
+                        </lt8:previousCallingPoints>
+                        <lt8:subsequentCallingPoints>
+                            <lt8:callingPointList>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Norwood Junction</lt8:locationName>
+                                    <lt8:crs>NWD</lt8:crs>
+                                    <lt8:st>16:59</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>10</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>London Bridge</lt8:locationName>
+                                    <lt8:crs>LBG</lt8:crs>
+                                    <lt8:st>17:15</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>10</lt8:length>
+                                </lt8:callingPoint>
+                            </lt8:callingPointList>
+                        </lt8:subsequentCallingPoints>
+                    </lt8:service>
+                    <lt8:service>
+                        <lt4:sta>16:56</lt4:sta>
+                        <lt4:eta>On time</lt4:eta>
+                        <lt4:std>16:56</lt4:std>
+                        <lt4:etd>On time</lt4:etd>
+                        <lt4:platform>5</lt4:platform>
+                        <lt4:operator>Southern</lt4:operator>
+                        <lt4:operatorCode>SN</lt4:operatorCode>
+                        <lt4:serviceType>train</lt4:serviceType>
+                        <lt4:length>8</lt4:length>
+                        <lt4:serviceID>4126968ECROYDN_</lt4:serviceID>
+                        <lt5:origin>
+                            <lt4:location>
+                                <lt4:locationName>London Victoria</lt4:locationName>
+                                <lt4:crs>VIC</lt4:crs>
+                            </lt4:location>
+                        </lt5:origin>
+                        <lt5:destination>
+                            <lt4:location>
+                                <lt4:locationName>Reigate</lt4:locationName>
+                                <lt4:crs>REI</lt4:crs>
+                            </lt4:location>
+                            <lt4:location>
+                                <lt4:locationName>Gatwick Airport</lt4:locationName>
+                                <lt4:crs>GTW</lt4:crs>
+                            </lt4:location>
+                        </lt5:destination>
+                        <lt8:previousCallingPoints>
+                            <lt8:callingPointList>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>London Victoria</lt8:locationName>
+                                    <lt8:crs>VIC</lt8:crs>
+                                    <lt8:st>16:38</lt8:st>
+                                    <lt8:at>On time</lt8:at>
+                                    <lt8:length>8</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Clapham Junction</lt8:locationName>
+                                    <lt8:crs>CLJ</lt8:crs>
+                                    <lt8:st>16:45</lt8:st>
+                                    <lt8:at>On time</lt8:at>
+                                    <lt8:length>8</lt8:length>
+                                </lt8:callingPoint>
+                            </lt8:callingPointList>
+                        </lt8:previousCallingPoints>
+                        <lt8:subsequentCallingPoints>
+                            <lt8:callingPointList>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Purley</lt8:locationName>
+                                    <lt8:crs>PUR</lt8:crs>
+                                    <lt8:st>17:01</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>8</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Coulsdon South</lt8:locationName>
+                                    <lt8:crs>CDS</lt8:crs>
+                                    <lt8:st>17:05</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>8</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Merstham</lt8:locationName>
+                                    <lt8:crs>MHM</lt8:crs>
+                                    <lt8:st>17:11</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>8</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Redhill</lt8:locationName>
+                                    <lt8:crs>RDH</lt8:crs>
+                                    <lt8:st>17:16</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>4</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Reigate</lt8:locationName>
+                                    <lt8:crs>REI</lt8:crs>
+                                    <lt8:st>17:26</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>4</lt8:length>
+                                </lt8:callingPoint>
+                            </lt8:callingPointList>
+                            <lt8:callingPointList>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Redhill</lt8:locationName>
+                                    <lt8:crs>RDH</lt8:crs>
+                                    <lt8:st>17:16</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>4</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Earlswood (Surrey)</lt8:locationName>
+                                    <lt8:crs>ELD</lt8:crs>
+                                    <lt8:st>17:26</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>4</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Salfords</lt8:locationName>
+                                    <lt8:crs>SAF</lt8:crs>
+                                    <lt8:st>17:30</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>4</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Horley</lt8:locationName>
+                                    <lt8:crs>HOR</lt8:crs>
+                                    <lt8:st>17:33</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>4</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Gatwick Airport</lt8:locationName>
+                                    <lt8:crs>GTW</lt8:crs>
+                                    <lt8:st>17:36</lt8:st>
+                                    <lt8:et>On time</lt8:et>
+                                    <lt8:length>4</lt8:length>
+                                </lt8:callingPoint>
+                            </lt8:callingPointList>
+                        </lt8:subsequentCallingPoints>
+                    </lt8:service>
+                    <lt8:service>
+                        <lt4:sta>16:58</lt4:sta>
+                        <lt4:eta>17:09</lt4:eta>
+                        <lt4:std>16:58</lt4:std>
+                        <lt4:etd>17:09</lt4:etd>
+                        <lt4:platform>1</lt4:platform>
+                        <lt4:operator>Southern</lt4:operator>
+                        <lt4:operatorCode>SN</lt4:operatorCode>
+                        <lt4:serviceType>train</lt4:serviceType>
+                        <lt4:length>12</lt4:length>
+                        <lt4:delayReason>This train has been delayed by a fault with the signalling system</lt4:delayReason>
+                        <lt4:serviceID>4123430ECROYDN_</lt4:serviceID>
+                        <lt5:origin>
+                            <lt4:location>
+                                <lt4:locationName>Bognor Regis</lt4:locationName>
+                                <lt4:crs>BOG</lt4:crs>
+                            </lt4:location>
+                            <lt4:location>
+                                <lt4:locationName>Bognor Regis</lt4:locationName>
+                                <lt4:crs>BOG</lt4:crs>
+                            </lt4:location>
+                        </lt5:origin>
+                        <lt5:destination>
+                            <lt4:location>
+                                <lt4:locationName>London Victoria</lt4:locationName>
+                                <lt4:crs>VIC</lt4:crs>
+                            </lt4:location>
+                        </lt5:destination>
+                        <lt8:previousCallingPoints>
+                            <lt8:callingPointList>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Bognor Regis</lt8:locationName>
+                                    <lt8:crs>BOG</lt8:crs>
+                                    <lt8:st>15:26</lt8:st>
+                                    <lt8:at>On time</lt8:at>
+                                    <lt8:length>8</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Barnham</lt8:locationName>
+                                    <lt8:crs>BAA</lt8:crs>
+                                    <lt8:st>15:34</lt8:st>
+                                    <lt8:at>15:36</lt8:at>
+                                    <lt8:length>8</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Ford</lt8:locationName>
+                                    <lt8:crs>FOD</lt8:crs>
+                                    <lt8:st>15:38</lt8:st>
+                                    <lt8:at>15:41</lt8:at>
+                                    <lt8:length>8</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Arundel</lt8:locationName>
+                                    <lt8:crs>ARU</lt8:crs>
+                                    <lt8:st>15:44</lt8:st>
+                                    <lt8:at>On time</lt8:at>
+                                    <lt8:length>8</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Amberley</lt8:locationName>
+                                    <lt8:crs>AMY</lt8:crs>
+                                    <lt8:st>15:48</lt8:st>
+                                    <lt8:at>15:50</lt8:at>
+                                    <lt8:length>8</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Pulborough</lt8:locationName>
+                                    <lt8:crs>PUL</lt8:crs>
+                                    <lt8:st>15:54</lt8:st>
+                                    <lt8:at>15:56</lt8:at>
+                                    <lt8:length>8</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Billingshurst</lt8:locationName>
+                                    <lt8:crs>BIG</lt8:crs>
+                                    <lt8:st>16:01</lt8:st>
+                                    <lt8:at>16:04</lt8:at>
+                                    <lt8:length>8</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Christs Hospital</lt8:locationName>
+                                    <lt8:crs>CHH</lt8:crs>
+                                    <lt8:st>16:07</lt8:st>
+                                    <lt8:at>16:10</lt8:at>
+                                    <lt8:length>8</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Horsham</lt8:locationName>
+                                    <lt8:crs>HRH</lt8:crs>
+                                    <lt8:st>16:20</lt8:st>
+                                    <lt8:at>On time</lt8:at>
+                                    <lt8:length>12</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Littlehaven</lt8:locationName>
+                                    <lt8:crs>LVN</lt8:crs>
+                                    <lt8:st>16:23</lt8:st>
+                                    <lt8:at>16:25</lt8:at>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Faygate</lt8:locationName>
+                                    <lt8:crs>FGT</lt8:crs>
+                                    <lt8:st>16:24</lt8:st>
+                                    <lt8:at>16:29</lt8:at>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Ifield</lt8:locationName>
+                                    <lt8:crs>IFI</lt8:crs>
+                                    <lt8:st>16:26</lt8:st>
+                                    <lt8:at>16:33</lt8:at>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Crawley</lt8:locationName>
+                                    <lt8:crs>CRW</lt8:crs>
+                                    <lt8:st>16:29</lt8:st>
+                                    <lt8:at>16:37</lt8:at>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Three Bridges</lt8:locationName>
+                                    <lt8:crs>TBD</lt8:crs>
+                                    <lt8:st>16:35</lt8:st>
+                                    <lt8:at>16:42</lt8:at>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Gatwick Airport</lt8:locationName>
+                                    <lt8:crs>GTW</lt8:crs>
+                                    <lt8:st>16:43</lt8:st>
+                                    <lt8:at>16:48</lt8:at>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Redhill</lt8:locationName>
+                                    <lt8:crs>RDH</lt8:crs>
+                                    <lt8:st>16:51</lt8:st>
+                                    <lt8:et>16:57</lt8:et>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                </lt8:callingPoint>
+                            </lt8:callingPointList>
+                            <lt8:callingPointList>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Portsmouth Harbour</lt8:locationName>
+                                    <lt8:crs>PMH</lt8:crs>
+                                    <lt8:st>14:59</lt8:st>
+                                    <lt8:at>Cancelled</lt8:at>
+                                    <lt8:isCancelled>true</lt8:isCancelled>
+                                    <lt8:length>4</lt8:length>
+                                    <lt8:cancelReason>This train has been cancelled because of train crew being delayed</lt8:cancelReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Portsmouth &amp; Southsea</lt8:locationName>
+                                    <lt8:crs>PMS</lt8:crs>
+                                    <lt8:st>15:03</lt8:st>
+                                    <lt8:at>Cancelled</lt8:at>
+                                    <lt8:isCancelled>true</lt8:isCancelled>
+                                    <lt8:length>4</lt8:length>
+                                    <lt8:cancelReason>This train has been cancelled because of train crew being delayed</lt8:cancelReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Fratton</lt8:locationName>
+                                    <lt8:crs>FTN</lt8:crs>
+                                    <lt8:st>15:07</lt8:st>
+                                    <lt8:at>Cancelled</lt8:at>
+                                    <lt8:isCancelled>true</lt8:isCancelled>
+                                    <lt8:length>4</lt8:length>
+                                    <lt8:cancelReason>This train has been cancelled because of train crew being delayed</lt8:cancelReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Hilsea</lt8:locationName>
+                                    <lt8:crs>HLS</lt8:crs>
+                                    <lt8:st>15:11</lt8:st>
+                                    <lt8:at>Cancelled</lt8:at>
+                                    <lt8:isCancelled>true</lt8:isCancelled>
+                                    <lt8:length>4</lt8:length>
+                                    <lt8:cancelReason>This train has been cancelled because of train crew being delayed</lt8:cancelReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Havant</lt8:locationName>
+                                    <lt8:crs>HAV</lt8:crs>
+                                    <lt8:st>15:17</lt8:st>
+                                    <lt8:at>Cancelled</lt8:at>
+                                    <lt8:isCancelled>true</lt8:isCancelled>
+                                    <lt8:length>4</lt8:length>
+                                    <lt8:cancelReason>This train has been cancelled because of train crew being delayed</lt8:cancelReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Warblington</lt8:locationName>
+                                    <lt8:crs>WBL</lt8:crs>
+                                    <lt8:st>15:19</lt8:st>
+                                    <lt8:at>Cancelled</lt8:at>
+                                    <lt8:isCancelled>true</lt8:isCancelled>
+                                    <lt8:length>4</lt8:length>
+                                    <lt8:cancelReason>This train has been cancelled because of train crew being delayed</lt8:cancelReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Emsworth</lt8:locationName>
+                                    <lt8:crs>EMS</lt8:crs>
+                                    <lt8:st>15:22</lt8:st>
+                                    <lt8:at>Cancelled</lt8:at>
+                                    <lt8:isCancelled>true</lt8:isCancelled>
+                                    <lt8:length>4</lt8:length>
+                                    <lt8:cancelReason>This train has been cancelled because of train crew being delayed</lt8:cancelReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Southbourne</lt8:locationName>
+                                    <lt8:crs>SOB</lt8:crs>
+                                    <lt8:st>15:26</lt8:st>
+                                    <lt8:at>Cancelled</lt8:at>
+                                    <lt8:isCancelled>true</lt8:isCancelled>
+                                    <lt8:length>4</lt8:length>
+                                    <lt8:cancelReason>This train has been cancelled because of train crew being delayed</lt8:cancelReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Nutbourne</lt8:locationName>
+                                    <lt8:crs>NUT</lt8:crs>
+                                    <lt8:st>15:28</lt8:st>
+                                    <lt8:at>Cancelled</lt8:at>
+                                    <lt8:isCancelled>true</lt8:isCancelled>
+                                    <lt8:length>4</lt8:length>
+                                    <lt8:cancelReason>This train has been cancelled because of train crew being delayed</lt8:cancelReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Bosham</lt8:locationName>
+                                    <lt8:crs>BOH</lt8:crs>
+                                    <lt8:st>15:32</lt8:st>
+                                    <lt8:at>Cancelled</lt8:at>
+                                    <lt8:isCancelled>true</lt8:isCancelled>
+                                    <lt8:length>4</lt8:length>
+                                    <lt8:cancelReason>This train has been cancelled because of train crew being delayed</lt8:cancelReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Fishbourne (West Sussex)</lt8:locationName>
+                                    <lt8:crs>FSB</lt8:crs>
+                                    <lt8:st>15:35</lt8:st>
+                                    <lt8:at>Cancelled</lt8:at>
+                                    <lt8:isCancelled>true</lt8:isCancelled>
+                                    <lt8:length>4</lt8:length>
+                                    <lt8:cancelReason>This train has been cancelled because of train crew being delayed</lt8:cancelReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Chichester</lt8:locationName>
+                                    <lt8:crs>CCH</lt8:crs>
+                                    <lt8:st>15:39</lt8:st>
+                                    <lt8:at>Cancelled</lt8:at>
+                                    <lt8:isCancelled>true</lt8:isCancelled>
+                                    <lt8:length>4</lt8:length>
+                                    <lt8:cancelReason>This train has been cancelled because of train crew being delayed</lt8:cancelReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Bognor Regis</lt8:locationName>
+                                    <lt8:crs>BOG</lt8:crs>
+                                    <lt8:st>15:41</lt8:st>
+                                    <lt8:at>15:38</lt8:at>
+                                    <lt8:length>4</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Barnham</lt8:locationName>
+                                    <lt8:crs>BAA</lt8:crs>
+                                    <lt8:st>15:47</lt8:st>
+                                    <lt8:at>On time</lt8:at>
+                                    <lt8:length>4</lt8:length>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Horsham</lt8:locationName>
+                                    <lt8:crs>HRH</lt8:crs>
+                                    <lt8:st>16:20</lt8:st>
+                                    <lt8:at>On time</lt8:at>
+                                    <lt8:length>4</lt8:length>
+                                </lt8:callingPoint>
+                            </lt8:callingPointList>
+                        </lt8:previousCallingPoints>
+                        <lt8:subsequentCallingPoints>
+                            <lt8:callingPointList>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Clapham Junction</lt8:locationName>
+                                    <lt8:crs>CLJ</lt8:crs>
+                                    <lt8:st>17:07</lt8:st>
+                                    <lt8:et>17:18</lt8:et>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                    <lt8:rerouteDelay>5</lt8:rerouteDelay>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>London Victoria</lt8:locationName>
+                                    <lt8:crs>VIC</lt8:crs>
+                                    <lt8:st>17:15</lt8:st>
+                                    <lt8:et>17:26</lt8:et>
+                                    <lt8:length>12</lt8:length>
+                                    <lt8:delayReason>This train has been delayed by a fault with the signalling system</lt8:delayReason>
+                                    <lt8:rerouteDelay>5</lt8:rerouteDelay>
+                                </lt8:callingPoint>
+                            </lt8:callingPointList>
+                        </lt8:subsequentCallingPoints>
+                    </lt8:service>
+                    <lt8:service>
+                        <lt4:sta>16:58</lt4:sta>
+                        <lt4:eta>Cancelled</lt4:eta>
+                        <lt4:std>16:59</lt4:std>
+                        <lt4:etd>Cancelled</lt4:etd>
+                        <lt4:operator>Thameslink</lt4:operator>
+                        <lt4:operatorCode>TL</lt4:operatorCode>
+                        <lt4:isCancelled>true</lt4:isCancelled>
+                        <lt4:serviceType>train</lt4:serviceType>
+                        <lt4:cancelReason>This train has been cancelled because of a fault with the signalling system</lt4:cancelReason>
+                        <lt4:serviceID>4123777ECROYDN_</lt4:serviceID>
+                        <lt5:origin>
+                            <lt4:location>
+                                <lt4:locationName>Cambridge</lt4:locationName>
+                                <lt4:crs>CBG</lt4:crs>
+                            </lt4:location>
+                        </lt5:origin>
+                        <lt5:destination>
+                            <lt4:location>
+                                <lt4:locationName>Brighton</lt4:locationName>
+                                <lt4:crs>BTN</lt4:crs>
+                            </lt4:location>
+                        </lt5:destination>
+                        <lt8:previousCallingPoints>
+                            <lt8:callingPointList>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Cambridge</lt8:locationName>
+                                    <lt8:crs>CBG</lt8:crs>
+                                    <lt8:st>15:23</lt8:st>
+                                    <lt8:et>Cancelled</lt8:et>
+                                    <lt8:isCancelled>true</lt8:isCancelled>
+                                    <lt8:cancelReason>This train has been cancelled because of a fault with the signalling system</lt8:cancelReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Royston</lt8:locationName>
+                                    <lt8:crs>RYS</lt8:crs>
+                                    <lt8:st>15:38</lt8:st>
+                                    <lt8:et>Cancelled</lt8:et>
+                                    <lt8:isCancelled>true</lt8:isCancelled>
+                                    <lt8:cancelReason>This train has been cancelled because of a fault with the signalling system</lt8:cancelReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Ashwell &amp; Morden</lt8:locationName>
+                                    <lt8:crs>AWM</lt8:crs>
+                                    <lt8:st>15:42</lt8:st>
+                                    <lt8:et>Cancelled</lt8:et>
+                                    <lt8:isCancelled>true</lt8:isCancelled>
+                                    <lt8:cancelReason>This train has been cancelled because of a fault with the signalling system</lt8:cancelReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Baldock</lt8:locationName>
+                                    <lt8:crs>BDK</lt8:crs>
+                                    <lt8:st>15:47</lt8:st>
+                                    <lt8:et>Cancelled</lt8:et>
+                                    <lt8:isCancelled>true</lt8:isCancelled>
+                                    <lt8:cancelReason>This train has been cancelled because of a fault with the signalling system</lt8:cancelReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Letchworth Garden City</lt8:locationName>
+                                    <lt8:crs>LET</lt8:crs>
+                                    <lt8:st>15:50</lt8:st>
+                                    <lt8:et>Cancelled</lt8:et>
+                                    <lt8:isCancelled>true</lt8:isCancelled>
+                                    <lt8:cancelReason>This train has been cancelled because of a fault with the signalling system</lt8:cancelReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Hitchin</lt8:locationName>
+                                    <lt8:crs>HIT</lt8:crs>
+                                    <lt8:st>15:55</lt8:st>
+                                    <lt8:et>Cancelled</lt8:et>
+                                    <lt8:isCancelled>true</lt8:isCancelled>
+                                    <lt8:cancelReason>This train has been cancelled because of a fault with the signalling system</lt8:cancelReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Stevenage</lt8:locationName>
+                                    <lt8:crs>SVG</lt8:crs>
+                                    <lt8:st>16:01</lt8:st>
+                                    <lt8:et>Cancelled</lt8:et>
+                                    <lt8:isCancelled>true</lt8:isCancelled>
+                                    <lt8:cancelReason>This train has been cancelled because of a fault with the signalling system</lt8:cancelReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Finsbury Park</lt8:locationName>
+                                    <lt8:crs>FPK</lt8:crs>
+                                    <lt8:st>16:22</lt8:st>
+                                    <lt8:et>Cancelled</lt8:et>
+                                    <lt8:isCancelled>true</lt8:isCancelled>
+                                    <lt8:cancelReason>This train has been cancelled because of a fault with the signalling system</lt8:cancelReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>London St Pancras (Intl)</lt8:locationName>
+                                    <lt8:crs>STP</lt8:crs>
+                                    <lt8:st>16:30</lt8:st>
+                                    <lt8:et>Cancelled</lt8:et>
+                                    <lt8:isCancelled>true</lt8:isCancelled>
+                                    <lt8:cancelReason>This train has been cancelled because of a fault with the signalling system</lt8:cancelReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Farringdon</lt8:locationName>
+                                    <lt8:crs>ZFD</lt8:crs>
+                                    <lt8:st>16:34</lt8:st>
+                                    <lt8:et>Cancelled</lt8:et>
+                                    <lt8:isCancelled>true</lt8:isCancelled>
+                                    <lt8:cancelReason>This train has been cancelled because of a fault with the signalling system</lt8:cancelReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>City Thameslink</lt8:locationName>
+                                    <lt8:crs>CTK</lt8:crs>
+                                    <lt8:st>16:36</lt8:st>
+                                    <lt8:et>Cancelled</lt8:et>
+                                    <lt8:isCancelled>true</lt8:isCancelled>
+                                    <lt8:cancelReason>This train has been cancelled because of a fault with the signalling system</lt8:cancelReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>London Blackfriars</lt8:locationName>
+                                    <lt8:crs>BFR</lt8:crs>
+                                    <lt8:st>16:39</lt8:st>
+                                    <lt8:et>Cancelled</lt8:et>
+                                    <lt8:isCancelled>true</lt8:isCancelled>
+                                    <lt8:cancelReason>This train has been cancelled because of a fault with the signalling system</lt8:cancelReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>London Bridge</lt8:locationName>
+                                    <lt8:crs>LBG</lt8:crs>
+                                    <lt8:st>16:45</lt8:st>
+                                    <lt8:et>Cancelled</lt8:et>
+                                    <lt8:isCancelled>true</lt8:isCancelled>
+                                    <lt8:cancelReason>This train has been cancelled because of a fault with the signalling system</lt8:cancelReason>
+                                </lt8:callingPoint>
+                            </lt8:callingPointList>
+                        </lt8:previousCallingPoints>
+                        <lt8:subsequentCallingPoints>
+                            <lt8:callingPointList>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Gatwick Airport</lt8:locationName>
+                                    <lt8:crs>GTW</lt8:crs>
+                                    <lt8:st>17:14</lt8:st>
+                                    <lt8:et>Cancelled</lt8:et>
+                                    <lt8:isCancelled>true</lt8:isCancelled>
+                                    <lt8:cancelReason>This train has been cancelled because of a fault with the signalling system</lt8:cancelReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Three Bridges</lt8:locationName>
+                                    <lt8:crs>TBD</lt8:crs>
+                                    <lt8:st>17:19</lt8:st>
+                                    <lt8:et>Cancelled</lt8:et>
+                                    <lt8:isCancelled>true</lt8:isCancelled>
+                                    <lt8:cancelReason>This train has been cancelled because of a fault with the signalling system</lt8:cancelReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Haywards Heath</lt8:locationName>
+                                    <lt8:crs>HHE</lt8:crs>
+                                    <lt8:st>17:29</lt8:st>
+                                    <lt8:et>Cancelled</lt8:et>
+                                    <lt8:isCancelled>true</lt8:isCancelled>
+                                    <lt8:cancelReason>This train has been cancelled because of a fault with the signalling system</lt8:cancelReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Burgess Hill</lt8:locationName>
+                                    <lt8:crs>BUG</lt8:crs>
+                                    <lt8:st>17:35</lt8:st>
+                                    <lt8:et>Cancelled</lt8:et>
+                                    <lt8:isCancelled>true</lt8:isCancelled>
+                                    <lt8:cancelReason>This train has been cancelled because of a fault with the signalling system</lt8:cancelReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Hassocks</lt8:locationName>
+                                    <lt8:crs>HSK</lt8:crs>
+                                    <lt8:st>17:39</lt8:st>
+                                    <lt8:et>Cancelled</lt8:et>
+                                    <lt8:isCancelled>true</lt8:isCancelled>
+                                    <lt8:cancelReason>This train has been cancelled because of a fault with the signalling system</lt8:cancelReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Preston Park</lt8:locationName>
+                                    <lt8:crs>PRP</lt8:crs>
+                                    <lt8:st>17:46</lt8:st>
+                                    <lt8:et>Cancelled</lt8:et>
+                                    <lt8:isCancelled>true</lt8:isCancelled>
+                                    <lt8:cancelReason>This train has been cancelled because of a fault with the signalling system</lt8:cancelReason>
+                                </lt8:callingPoint>
+                                <lt8:callingPoint>
+                                    <lt8:locationName>Brighton</lt8:locationName>
+                                    <lt8:crs>BTN</lt8:crs>
+                                    <lt8:st>17:51</lt8:st>
+                                    <lt8:et>Cancelled</lt8:et>
+                                    <lt8:isCancelled>true</lt8:isCancelled>
+                                    <lt8:cancelReason>This train has been cancelled because of a fault with the signalling system</lt8:cancelReason>
+                                </lt8:callingPoint>
+                            </lt8:callingPointList>
+                        </lt8:subsequentCallingPoints>
+                    </lt8:service>
+                </lt8:trainServices>
+            </GetStationBoardResult>
+        </GetArrDepBoardWithDetailsResponse>
+    </soap:Body>
+</soap:Envelope>

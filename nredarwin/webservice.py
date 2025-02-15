@@ -1,11 +1,11 @@
-from suds.client import Client
-import suds.transport.http
-
-from suds.sax.element import Element
-from suds import WebFault
-from functools import partial
 import logging
 import os
+from functools import partial
+
+import suds.transport.http
+from suds import WebFault
+from suds.client import Client
+from suds.sax.element import Element
 
 log = logging.getLogger(__name__)
 # TODO - timeouts and error handling
@@ -72,6 +72,7 @@ class DarwinLdbSession(object):
             include_arrivals=False,
             destination_crs=None,
             origin_crs=None,
+            with_details=False
     ):
         """
         Query the darwin webservice to obtain a board for a particular station
@@ -94,10 +95,16 @@ class DarwinLdbSession(object):
         # Determine the darwn query we want to make
         if include_departures and include_arrivals:
             query_type = "GetArrivalDepartureBoard"
+            if with_details:
+                query_type = "GetArrDepBoardWithDetails"
         elif include_departures:
             query_type = "GetDepartureBoard"
+            if with_details:
+                query_type = "GetDepBoardWithDetails"
         elif include_arrivals:
             query_type = "GetArrivalBoard"
+            if with_details:
+                query_type = "GetArrBoardWithDetails"
         else:
             raise ValueError(
                 "get_station_board must have either include_departures or \
@@ -118,7 +125,12 @@ destination_crs and origin_crs, using only destination_crs"
             soap_response = q()
         except WebFault:
             raise WebServiceError
-        return StationBoard(soap_response)
+
+        item_factory = ServiceItem
+        if with_details:
+            item_factory = ServiceItemWithDetails
+
+        return StationBoard(soap_response, item_factory=item_factory)
 
     def get_fastest_departures(
             self,
@@ -261,7 +273,7 @@ class StationBoard(SoapResponseBase):
         ("ferry_services", "ferryServices"),
     ]
 
-    def __init__(self, soap_response, *args, **kwargs):
+    def __init__(self, soap_response, item_factory=lambda soap: ServiceItem(soap), *args, **kwargs):
         super(StationBoard, self).__init__(soap_response, *args, **kwargs)
         # populate service lists - these are specific to station board
         # objects, so not included in base class
@@ -272,7 +284,7 @@ class StationBoard(SoapResponseBase):
                 setattr(self, "_" + dest_key, [])
                 continue
 
-            setattr(self, "_" + dest_key, [ServiceItem(s) for s in service_rows])
+            setattr(self, "_" + dest_key, [item_factory(s) for s in service_rows])
         # populate nrcc_messages
         if hasattr(soap_response, "nrccMessages") and hasattr(
                 soap_response.nrccMessages, "message"
@@ -525,6 +537,9 @@ class ServiceItemWithDetails(ServiceItem):
 
     def __init__(self, soap_data, *args, **kwargs):
         super(ServiceItemWithDetails, self).__init__(soap_data, *args, **kwargs)
+        self._previous_calling_point_lists = self._calling_point_lists(
+            soap_data, "previousCallingPoints"
+        )
         self._subsequent_calling_point_lists = self._calling_point_lists(
             soap_data, "subsequentCallingPoints"
         )
@@ -538,6 +553,20 @@ class ServiceItemWithDetails(ServiceItem):
         for sublist in calling_points:
             lists.append(CallingPointList(sublist))
         return lists
+
+    @property
+    def previous_calling_point_lists(self):
+        """
+        A list of CallingPointLists.
+
+        The first CallingPointList is all the calling points of the through
+        train before here from its origin, with any additional
+        CallingPointLists (if they are present) containing the calling points
+        of associated trains which split from the through train from the
+        calling point at which they split off from the through train from
+        their respective origins.
+        """
+        return self._previous_calling_point_lists
 
     @property
     def subsequent_calling_point_lists(self):
